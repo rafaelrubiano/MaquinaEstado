@@ -1,0 +1,47 @@
+﻿@page "/"
+@using static MaquinaEstado.DB.Enum.EnumEstados
+
+<PageTitle>Solicitudes</PageTitle>
+
+<MudGrid Justify="Justify.Center">
+	<MudItem lg="12">
+
+		@if (Estados != null)
+		{
+			<MudTimeline TimelineOrientation="@TimelineOrientation.Horizontal">
+				@foreach (var estado in Estados)
+				{
+					<MudTimelineItem Color="@(estado.Id == (int)_ultimoEstadoSeleccionado ? Color.Primary : Color.Default)">
+						<MudText>@estado.Nombre</MudText>
+					</MudTimelineItem>
+				}
+			</MudTimeline>
+		}
+
+	</MudItem>
+
+	<MudItem lg="12">
+		<MudDataGrid T="Solicitudes" Items="@Solicitudes" HorizontalScrollbar="true" Bordered="true" Dense="true">
+			<Columns>
+				<PropertyColumn Property="x => x.Descripcion" StickyLeft="true" />
+
+				<PropertyColumn Property="x => Enum.GetName(typeof(EstadoSolicitud), x.EstadoId)" />
+
+				<PropertyColumn Property="x => x.Creado" Format="dd/MM/yyyy" HeaderStyle="white-space:nowrap" />
+				<PropertyColumn Property="x => x.Activo" />
+				<TemplateColumn StickyRight="true">
+					<CellTemplate>
+						<MudIconButton Icon="@Icons.Material.Outlined.Update" Size="@Size.Small" OnClick="()=> ActualizarDatos(context.Item)" />
+						<MudIconButton Icon="@Icons.Material.Outlined.ShowChart" Size="@Size.Small" />
+					</CellTemplate>
+				</TemplateColumn>
+			</Columns>
+		</MudDataGrid>
+	</MudItem>
+
+</MudGrid>
+
+
+
+
+

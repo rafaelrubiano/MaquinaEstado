@@ -1,0 +1,7 @@
+C:\Repo\Personal\MaquinaEstado\MaquinaEstado\obj\Debug\net7.0\MaquinaEstado.GeneratedMSBuildEditorConfig.editorconfig
+C:\Repo\Personal\MaquinaEstado\MaquinaEstado\obj\Debug\net7.0\MaquinaEstado.AssemblyInfoInputs.cache
+C:\Repo\Personal\MaquinaEstado\MaquinaEstado\obj\Debug\net7.0\MaquinaEstado.AssemblyInfo.cs
+C:\Repo\Personal\MaquinaEstado\MaquinaEstado\obj\Debug\net7.0\MaquinaEstado.csproj.CoreCompileInputs.cache
+C:\Repo\Personal\MaquinaEstado\MaquinaEstado\obj\Debug\net7.0\MaquinaEstado.MvcApplicationPartsAssemblyInfo.cache
+C:\Repo\Personal\MaquinaEstado\MaquinaEstado\obj\Debug\net7.0\MaquinaEstado.RazorAssemblyInfo.cache
+C:\Repo\Personal\MaquinaEstado\MaquinaEstado\obj\Debug\net7.0\MaquinaEstado.RazorAssemblyInfo.cs

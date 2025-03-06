@@ -1,0 +1,61 @@
+﻿{
+   "CodeGenerationMode": 4,
+   "ContextClassName": "MaquinaEstadosDBContext",
+   "ContextNamespace": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": false,
+   "ModelNamespace": null,
+   "OutputContextPath": null,
+   "OutputPath": "DB\/DataSet",
+   "PreserveCasingWithRegex": true,
+   "ProjectRootNamespace": "MaquinaEstado",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 2,
+   "SelectedToBeGenerated": 1,
+   "T4TemplatePath": null,
+   "Tables": [
+      {
+         "Name": "[dbo].[Estados]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[HistorialEstados]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Solicitudes]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Transiciones]",
+         "ObjectType": 0
+      }
+   ],
+   "UiHint": null,
+   "UncountableWords": null,
+   "UseAsyncStoredProcedureCalls": true,
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": true,
+   "UseDatabaseNamesForRoutines": true,
+   "UseDateOnlyTimeOnly": true,
+   "UseDbContextSplitting": false,
+   "UseDecimalDataAnnotationForSprocResult": true,
+   "UseFluentApiOnly": true,
+   "UseHandleBars": false,
+   "UseHierarchyId": false,
+   "UseInflector": false,
+   "UseInternalAccessModifiersForSprocsAndFunctions": false,
+   "UseLegacyPluralizer": false,
+   "UseManyToManyEntity": false,
+   "UseNoDefaultConstructor": false,
+   "UseNoNavigations": false,
+   "UseNoObjectFilter": false,
+   "UseNodaTime": false,
+   "UseNullableReferences": false,
+   "UsePrefixNavigationNaming": false,
+   "UseSchemaFolders": false,
+   "UseSchemaNamespaces": false,
+   "UseSpatial": false,
+   "UseT4": false,
+   "UseT4Split": false
+}
